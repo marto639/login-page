@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  display: block;
+  margin: auto;
+}
+
+#container {
+  text-align: center;
+}
+
+.greetings {
+  text-align: center;
+}
