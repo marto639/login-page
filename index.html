@@ -5,19 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css">
     <link rel="stylesheet" href="style.css">
     <title>Login Page</title>
 </head>
 
 <body>
     <div id="container">
-        <h1 class="greetings">Welcome</h1>
+        <h1 class="greetings">W&nbsp;E&nbsp;L&nbsp;C&nbsp;O&nbsp;M&nbsp;E</h1>
 
-        <input type="text" />
-        <input type="text" />
-        <input type="submit" />
+        <form class="login-format" method="GET">
+            <input type="text" placeholder="email/ username" class="input-fields" />
+            <input type="password" placeholder="password" class="input-fields" />
+            <input type="submit" value="LOGIN" class="login-btn" />
 
-        <p>Don't have account? <a href="#">Register</a></p>
+            <p class="register-text">Don't have account? <a href="#">Register</a></p>
+
+            <h4 id="login-choices-text">
+                <span id="lines"></span>OR LOGIN WITH
+            </h4>
+        </form>
+
+        <div class="login-choices">
+            <button class="accout-redirect whatsapp"><i class="fa-brands fa-whatsapp"></i> Whatsapp</button>
+            <button class="accout-redirect facebook"><i class="fa-brands fa-facebook-f"></i> Facebook</button>
+            <button class="accout-redirect google"><i class="fa-brands fa-google"></i> Google</button>
+        </div>
     </div>
 </body>
 
